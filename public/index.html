@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İSPARK'a Sor Asistanı – Demo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=latin-ext">
+  <style>
+    :root { --blue: #005ea1; --blue-dark: #004b81; --yellow: #ffda00; --gray: #e9e9e9; --text: #636363; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Montserrat', Arial, sans-serif; color: var(--text); background: #fff; }
+    .topbar { background: #fff; border-bottom: 1px solid #e1e1e1; }
+    .wrap { max-width: 1140px; margin: 0 auto; padding: 0 16px; }
+    .topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 76px; }
+    .brand { font-weight: 700; font-size: 26px; color: var(--blue); letter-spacing: .5px; }
+    .brand span { color: var(--yellow); background: var(--blue); padding: 0 6px; margin-left: 4px; font-size: 14px; vertical-align: middle; }
+    .demo-tag { font-size: 12px; font-weight: 600; color: #a12622; border: 1px solid #f0c4c2; background: #fff4f4; padding: 4px 8px; }
+    .hero { background: var(--blue); }
+    .hero .wrap { padding-top: 48px; padding-bottom: 40px; }
+    .hero h1 { margin: 0; color: var(--yellow); font-size: 27px; font-weight: 600; }
+    .hero p { margin: 8px 0 0; color: #fff; font-size: 13px; }
+    main .wrap { padding-top: 32px; padding-bottom: 80px; }
+    .toggle { background: var(--gray); height: 42px; line-height: 42px; padding-left: 15px; margin-bottom: 10px; font-size: 14px; display: flex; justify-content: space-between; }
+    .toggle i { width: 42px; background: var(--blue); color: #fff; text-align: center; font-style: normal; }
+    .info { font-size: 14px; line-height: 1.6; max-width: 720px; margin-bottom: 28px; }
+    code { background: #f4f4f4; padding: 2px 6px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div class="brand">İSPARK <span>DEMO</span></div>
+      <div class="demo-tag">Geliştirme önizlemesi – resmi site değildir</div>
+    </div>
+  </div>
+  <section class="hero">
+    <div class="wrap">
+      <h1>İSPARK’a Sor</h1>
+      <p>Ana Sayfa / İSPARK’a Sor</p>
+    </div>
+  </section>
+  <main>
+    <div class="wrap">
+      <div class="info">
+        Bu sayfa, sohbet asistanının İSPARK'a Sor sayfasında nasıl görüneceğini göstermek için hazırlanmış bir önizlemedir.
+        Sağ alttaki <strong>İSPARK'a Sor</strong> butonuna tıklayarak asistanı deneyebilirsiniz.
+        Siteye eklemek için sayfaya tek satır yeterlidir: <code>&lt;script src="…/widget.js" defer&gt;&lt;/script&gt;</code>
+      </div>
+      <div class="toggle">Şehit yakını özel statülü abonelik başvurusu nasıl yapılır? <i>+</i></div>
+      <div class="toggle">Engelli özel statülü abonelik başvurusu nasıl yapılır? <i>+</i></div>
+      <div class="toggle">Borç sorgulama sırasında plakada görülen park borcu nasıl ödenir? <i>+</i></div>
+      <div class="toggle">İSPARK otoparkında aracım hasar gördü. Ne yapmalıyım? <i>+</i></div>
+    </div>
+  </main>
+  <script src="/widget.js" defer></script>
+</body>
+</html>

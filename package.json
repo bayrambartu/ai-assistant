@@ -1,0 +1,13 @@
+{
+  "name": "ispark-asistan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "İSPARK'a Sor sayfası için yerel LLM (Ollama) ile çalışan sohbet asistanı",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}
